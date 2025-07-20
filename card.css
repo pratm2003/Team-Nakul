@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.cart-title {
+  font-family: 'Cursive', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.item-image {
+  width: 60px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.item-price {
+  color: green;
+  font-weight: bold;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-btn {
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.subtotal-section {
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn-success {
+  border-radius: 25px;
+}
